@@ -1,0 +1,1880 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qi",
+				"qiniu-transparent"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"cr",
+				"createElement"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"bu",
+				"beforeUpload"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"File",
+				"FileAPI"
+			],
+			[
+				"off",
+				"offsetHeight"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"up",
+				"uploadUrl"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"repl",
+				"replyData"
+			],
+			[
+				"bl",
+				"blockCtxes"
+			],
+			[
+				"fom",
+				"format"
+			],
+			[
+				"re",
+				"re	require"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"ev",
+				"events"
+			],
+			[
+				"set",
+				"setImage"
+			],
+			[
+				"dr",
+				"dragleave"
+			],
+			[
+				"drag",
+				"dragenter"
+			],
+			[
+				"file",
+				"filter"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"ct",
+				"ctor"
+			],
+			[
+				"v",
+				"viewPage"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"e",
+				"events"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"en",
+				"entryUrl"
+			],
+			[
+				"crea",
+				"createXHR"
+			],
+			[
+				"ob",
+				"objClone"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"Ob",
+				"objExtend"
+			],
+			[
+				"pr",
+				"prop"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"ins",
+				"instanceof"
+			],
+			[
+				"f",
+				"fun	Function"
+			],
+			[
+				"Fil",
+				"FileAPI"
+			],
+			[
+				"de",
+				"defines"
+			],
+			[
+				"md",
+				"md2html"
+			],
+			[
+				"sa",
+				"sample"
+			],
+			[
+				"po",
+				"Policy"
+			],
+			[
+				"pu",
+				"PutPolicy"
+			],
+			[
+				"gen",
+				"genToken"
+			],
+			[
+				"P",
+				"PutPolicy"
+			],
+			[
+				"ut",
+				"utils"
+			],
+			[
+				"ac",
+				"access_key"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"ur",
+				"urlInfo"
+			],
+			[
+				"der",
+				"deferred"
+			],
+			[
+				"ex",
+				"exampleKey"
+			],
+			[
+				"ima",
+				"imagesBucket"
+			],
+			[
+				"image",
+				"image-process"
+			],
+			[
+				"imag",
+				"images"
+			],
+			[
+				"get",
+				"gettingStream"
+			],
+			[
+				"com",
+				"complete"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"cp",
+				"copy"
+			],
+			[
+				"go",
+				"gogopher"
+			],
+			[
+				"ba",
+				"Batch"
+			],
+			[
+				"ge",
+				"generateAccessToken"
+			],
+			[
+				"gogo",
+				"gogopher_tmp"
+			],
+			[
+				"it",
+				"ita	BDD it asynchronous"
+			],
+			[
+				"ass",
+				"asset"
+			],
+			[
+				"des",
+				"destAsset"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"enco",
+				"encodeSignData"
+			],
+			[
+				"enc",
+				"encodeSign"
+			],
+			[
+				"_",
+				"_url"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"put",
+				"puttingStream"
+			],
+			[
+				"as",
+				"assets"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"data",
+				"dataStream"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"G",
+				"GetPolicy"
+			],
+			[
+				"sc",
+				"secret_key"
+			],
+			[
+				"si",
+				"signature"
+			],
+			[
+				"us",
+				"userLog"
+			],
+			[
+				"fec",
+				"fetchUserLog"
+			],
+			[
+				"fe",
+				"fetchUserLog"
+			],
+			[
+				"sys",
+				"sysLog"
+			],
+			[
+				"lin",
+				"lineNum"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"bi",
+				"binder"
+			],
+			[
+				"qu",
+				"queryStr"
+			],
+			[
+				"wa",
+				"waitingHandled"
+			],
+			[
+				"cha",
+				"characters"
+			],
+			[
+				"bin",
+				"binder"
+			],
+			[
+				"pg",
+				"pgPool"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"we",
+				"weibo"
+			],
+			[
+				"wei",
+				"weibo_id"
+			],
+			[
+				"weibo",
+				"weibo_name"
+			],
+			[
+				"weib",
+				"weiboCosers"
+			],
+			[
+				"sav",
+				"savePhotos"
+			],
+			[
+				"quer",
+				"queryStr"
+			],
+			[
+				"phot",
+				"photos"
+			],
+			[
+				"bind",
+				"binder"
+			],
+			[
+				"albu",
+				"albumId"
+			],
+			[
+				"album",
+				"albumId"
+			],
+			[
+				"char",
+				"character"
+			],
+			[
+				"web",
+				"weiboCosers"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"albi",
+				"albumInfo"
+			],
+			[
+				"phx",
+				"phx_ids"
+			],
+			[
+				"coser",
+				"cosers_ids"
+			],
+			[
+				"cos",
+				"cosers"
+			],
+			[
+				"weo",
+				"weiboFilter"
+			],
+			[
+				"photo",
+				"photographers"
+			],
+			[
+				"uti",
+				"utils"
+			],
+			[
+				"wo",
+				"worker"
+			],
+			[
+				"work",
+				"workerTimer"
+			],
+			[
+				"al",
+				"albumId"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"user_",
+				"user_opts"
+			],
+			[
+				"opt",
+				"optsUpdate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/fop.js",
+			"settings":
+			{
+				"buffer_size": 3532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/asset.js",
+			"settings":
+			{
+				"buffer_size": 2985,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/bucket.js",
+			"settings":
+			{
+				"buffer_size": 6858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "qiniu.js",
+			"settings":
+			{
+				"buffer_size": 79625,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/qiniu.js",
+			"settings":
+			{
+				"buffer_size": 7892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/deps/file.js",
+			"settings":
+			{
+				"buffer_size": 32420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/utils.js",
+			"settings":
+			{
+				"buffer_size": 4071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/deps/shim.js",
+			"settings":
+			{
+				"buffer_size": 3299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/server.js",
+			"settings":
+			{
+				"buffer_size": 964,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/deps/ajax.js",
+			"settings":
+			{
+				"buffer_size": 1939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/qiniu.min.js",
+			"settings":
+			{
+				"buffer_size": 53355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/index.html",
+			"settings":
+			{
+				"buffer_size": 2104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/view.html",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var web = require('webjs');\nvar qiniu = require('node-qiniu');\nvar fs = require('fs');\nvar util = require('util');\n\nqiniu.config({\n  access_key: '5UyUq-l6jsWqZMU6tuQ85Msehrs3Dr58G-mCZ9rE',\n  secret_key: 'YaRsPKiYm4nGUt8mdz2QxeV5Q_yaUzVxagRuWTfM'\n});\n\nvar uploadPage = fs.readFileSync(__dirname + '/../index.html').toString();\nvar viewPage = fs.readFileSync(__dirname + '/../view.html').toString();\nvar qiniuJs = fs.readFileSync(__dirname + '/../qiniu.min.js');\n\nweb.run(process.argv[2] || 8080)\n  .get({\n    '/': function(req, res) {\n      var putToken = (new qiniu.Token.PutPolicy({\n        scope: 'qiniu-sdk-test'\n      })).token();\n\n      res.send(util.format(uploadPage, putToken));\n    },\n    '/view': function(req, res) {\n      var getToken = (new qiniu.Token.GetPolicy())\n        .token('http://qiniu-sdk-test.qiniudn.com/', '2.jpg');\n\n      res.send(util.format(viewPage, getToken));\n    },\n    '/qiniu.js': function(req, res) {\n      res.send(qiniuJs);\n    }\n  });",
+			"file": "test/server/index.js",
+			"file_size": 1005,
+			"file_write_time": 130241980550889019,
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/env.js",
+			"settings":
+			{
+				"buffer_size": 732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "function (f) {\n  if (typeof f !== 'string') {\n    var objects = [];\n    for (var i = 0; i < arguments.length; i++) {\n      objects.push(inspect(arguments[i]));\n    }\n    return objects.join(' ');\n  }\n\n  var i = 1;\n  var args = arguments;\n  var len = args.length;\n  var str = String(f).replace(formatRegExp, function(x) {\n    if (x === '%%') return '%';\n    if (i >= len) return x;\n    switch (x) {\n      case '%s': return String(args[i++]);\n      case '%d': return Number(args[i++]);\n      case '%j': return JSON.stringify(args[i++]);\n      default:\n        return x;\n    }\n  });\n  for (var x = args[i]; i < len; x = args[++i]) {\n    if (x === null || typeof x !== 'object') {\n      str += ' ' + x;\n    } else {\n      str += ' ' + inspect(x);\n    }\n  }\n  return str;\n}",
+			"settings":
+			{
+				"buffer_size": 768,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Node.js.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ka",
+				"Package Control: Add Channel"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"ejs",
+				"EJS: <% and %>"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"pain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Prototype"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"jsa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sn",
+				"Snippet: import"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"g",
+				"Set Syntax: Go"
+			],
+			[
+				"syntax",
+				"Set Syntax: C#"
+			],
+			[
+				"typesc",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"snp",
+				"Snippet: default"
+			],
+			[
+				"main",
+				"Snippet: method (main)"
+			],
+			[
+				"pri",
+				"Snippet: println"
+			],
+			[
+				"snpp",
+				"Snippet: class"
+			],
+			[
+				"snip",
+				"Snippet: Type"
+			],
+			[
+				"set",
+				"Snippet: Type"
+			],
+			[
+				"ej",
+				"Set Syntax: EJS"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"lr",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"le",
+				"Set Syntax: LESS"
+			],
+			[
+				"ng",
+				"Set Syntax: nginx"
+			],
+			[
+				"ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"pr",
+				"Package Control: Remove Package"
+			],
+			[
+				"mu",
+				"Set Syntax: MultiMarkdown"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/qiniu.min.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/qiniu.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/image.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/file.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/test/index.html",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/utils.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/qiniu.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/ajax.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/test/qiniu.min.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/node_modules/node-qiniu/lib/token.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/events.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/shim.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_asset.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/utils.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_fop.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/sample.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/token.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/fop.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/image.js",
+		"/C/Users/WillWen/Downloads/key-value-storage.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.gitignore",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.travis.yml",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/package.json",
+		"/C/Users/WillWen/Desktop/LightTable/package.json",
+		"/C/Users/WillWen/.ssh/id_rsa.pub",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/Makefile",
+		"/C/Users/WillWen/Documents/Tencent Files/465479795/FileRecv/parseInvitationCode.js.腾讯你个傻逼",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/qiniu.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/index.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.npmignore",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/README.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/example.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_image.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_get.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_batch.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/config.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/gogopher_tmp.jpg",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/gogopher_alias.jpg",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/bucket.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/asset.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_put.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/batch.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/a.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test.js",
+		"/home/wen/Koicos.sublime-project",
+		"/home/wen/Dropbox/Code/test.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/users.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/views/info/settings.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/static/handlers/u.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/info.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/photos.js",
+		"/home/wen/Dropbox/Code/err.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/relations.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/albums.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/log.js",
+		"/home/wen/.config/sublime-text-3/Packages/User/Node.js.sublime-build",
+		"/home/wen/Dropbox/Koicos/code/global/functions/users.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/tasksqueue.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/messagesqueue.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/user.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/album.html",
+		"/home/wen/Dropbox/Koicos/code/run.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/photos.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/weibo.js",
+		"/home/wen/Dropbox/Koicos/code/global/index.js",
+		"/home/wen/Dropbox/Koicos/code/info/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/info/controllers/routes/messagesworker.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/albums.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/settings.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/upload.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/autocomplete-debug.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/autocomplete.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/textarea-complete-debug.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/textarea-complete.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt-cmd-transport/node_modules/handlebars/node_modules/uglify-js/tmp/app.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/.bin/lodash",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/findup-sync/node_modules/.bin/lodash",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/build.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/examples/findbooleantrap.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/lodash/build.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/pg/node_modules/jshint/node_modules/esprima/examples/findbooleantrap.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/album.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/upload.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/wall.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/webjs/lib/request.js",
+		"/home/wen/Dropbox/Koicos/code/global/utils.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/webjs/lib/response.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/hash.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/index.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/packets.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/handlers/album.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/bootstrapSwitch.js",
+		"/tmp/fibonacci.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/navbar.less",
+		"/home/wen/Dropbox/Koicos/code/main/views/layout.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/error.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/geo.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/switch/bootstrapSwitch.less",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/switch/deps/mixins.less",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/async.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/geo.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/views/photos/grids.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/upload.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/routes/users.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/bootstrap.less",
+		"/home/wen/桌面/a.pac",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib/util.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/weibo/lib/tbase.js",
+		"/home/wen/Dropbox/Koicos/code/package.json",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib/boot.js",
+		"/home/wen/.ssh/id_rsa.pub",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib/app.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib/view.js",
+		"/usr/bin/subl",
+		"/usr/local/bin/ungit",
+		"/home/wen/Dropbox/Koicos/code/.gitignore",
+		"/home/wen/.ssh/w.pac",
+		"/tmp/hw.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/variables.less",
+		"/home/wen/Dropbox/Koicos/code/main/static/config.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/ejs/ejs.js",
+		"/home/wen/Dropbox/Koicos/code/api/python/getRelations.py",
+		"/home/wen/.ssh/id_rsa",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/master.less",
+		"/home/wen/Dropbox/Koicos/code/main/server.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/index.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static/modules",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/photos/controllers/functions",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/node_modules/pg",
+			"/home/wen/Dropbox/Code/PubJS/core",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Code/node-master/deps/v8/src",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"argumen",
+			"argument",
+			"el",
+			"0.5",
+			"50",
+			"insertBefore",
+			"firstChild",
+			"opacity",
+			"setA",
+			"filters",
+			"FileAPI",
+			"swf",
+			"FileAPIqini",
+			"FileAPI",
+			"mouseenter",
+			"span",
+			"_api",
+			": ",
+			"width",
+			"js-fileapi-wrapper",
+			"-wrapper",
+			"js-fileapi-wrapper",
+			"typ",
+			"console",
+			"before",
+			"beforeUpload",
+			"progresspro",
+			"progress",
+			"console",
+			"_fileap",
+			"\\.FileAPI",
+			"swf",
+			"windowex",
+			"window",
+			"\\.FileAPI",
+			"argument",
+			"wrapper",
+			"qiniu.deps.file",
+			"{\n",
+			"log",
+			"write",
+			"position",
+			"FileAPIq",
+			"FileAPI",
+			"swf",
+			"argument",
+			"FileAPI",
+			"progress",
+			"err",
+			"image",
+			"null",
+			"offsetWidth",
+			"d",
+			"top:",
+			"_css",
+			"rteur_callback",
+			"end",
+			"argument",
+			"host",
+			"body",
+			"argument",
+			"uploadUrl",
+			"start",
+			"chunk",
+			"argument",
+			"true",
+			"_file",
+			"key",
+			"argument",
+			"options",
+			"isObject",
+			"callback",
+			"isFunction",
+			"callback",
+			"argument",
+			"data",
+			"argument",
+			"events",
+			"createEventObject",
+			"createEvent",
+			"error load",
+			" error",
+			"error",
+			"flash",
+			"flashImageUrl",
+			"u",
+			"flashImageUrl",
+			"FileAPI",
+			"swf",
+			"tagName",
+			"write",
+			"over",
+			"argument",
+			"filter",
+			"argument",
+			"preview",
+			"previews",
+			"preview",
+			"previews",
+			"bod",
+			"body",
+			"argumen",
+			"argument",
+			"hovero",
+			"hover",
+			"Promis",
+			"Promise",
+			"Promisepromis",
+			"Promise",
+			"'%';",
+			"argumenter",
+			"argument",
+			"getToken",
+			"argumentsva",
+			"arguments",
+			"rtn",
+			"_\\.",
+			"keys",
+			"_\\.",
+			"_",
+			"../",
+			"'/../view",
+			"../",
+			"'/../view",
+			"../",
+			"\\.Image",
+			"Image",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"qiniu-js-wrapper",
+			"getFn",
+			"_global.getFunction('$1');",
+			"",
+			"birth_",
+			"$2: \"$3\", ",
+			"",
+			">$1日<",
+			">$1月<",
+			"<option value=\"$1\">$1</option>",
+			"_global.getFunction('$1');",
+			"var $1 = _global.getFunction('$3');",
+			"",
+			"btn-primary",
+			"btn-sm",
+			"btn-xs",
+			"无数据",
+			"",
+			"<br />",
+			"\\\\n",
+			"",
+			"col-lg-5 form-control",
+			"this.$super",
+			"",
+			"\\\\n",
+			"\\\\\\\\n",
+			"\\\\n",
+			"\\n",
+			"",
+			"self.$el",
+			"",
+			"===",
+			"\"gallery/pub/0.1.2/lib",
+			";\\ndefine",
+			"\"gallery/pub/0.1.2/lib",
+			">$2<",
+			">$1<",
+			"$1",
+			"",
+			"arale",
+			"sea-modules/arale",
+			"val",
+			"#val_",
+			"jquery",
+			"./$1",
+			"",
+			"./",
+			"<",
+			">",
+			"",
+			"qiniudn.com",
+			"koicos-static.koicos.com",
+			"http://static.koicos.com/sea-modules",
+			"'#pub-$1'",
+			"#pub-$1",
+			"process.stdout.write",
+			"stack",
+			"",
+			"./$1.js",
+			"#pub-$1",
+			"document",
+			"",
+			"m",
+			"r",
+			"'#pub-$1'",
+			"e",
+			"r",
+			"m",
+			"r",
+			"e",
+			"r",
+			"e",
+			"r",
+			"$1 + $2",
+			"msg.context",
+			"msg.data",
+			"msg.func",
+			"msg.type",
+			"msg.sender",
+			"msg.listener",
+			"catch(",
+			") catch",
+			") {",
+			"} else",
+			"utils.noop",
+			"sublime"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/fop.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2868,
+								2868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2322.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/asset.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2245,
+								2245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/bucket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2058,
+								2058
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1020.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "qiniu.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 79625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								714,
+								714
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/qiniu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3432,
+								3432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/deps/file.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32420,
+								32420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 768.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3916,
+								3916
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2349.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/deps/shim.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "test/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/deps/ajax.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "test/qiniu.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53075,
+								53075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "test/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "test/view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "test/server/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "lib/env.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 200.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"project": "qiniu-js-sdk.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"album",
+				"global/functions/albums.js"
+			],
+			[
+				"",
+				"main/static/modules/photos.js"
+			],
+			[
+				"view",
+				"Playground/pub-test/sea-modules/gallery/pub/lib/view.js"
+			],
+			[
+				"nano",
+				"Code/nano.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Koicos.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

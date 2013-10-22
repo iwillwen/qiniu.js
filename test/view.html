@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Qiniu JavaScript DEMO</title>
+
+  <script src="qiniu.js"></script>
+
+</head>
+<body>
+  <div id="previews"></div>
+
+  <script>
+    var images = qiniu.bucket('qiniu-sdk-test', {
+      getToken: '%s'
+    });
+
+    images.image('2.jpg')
+      .imageView({
+        mode: 1,
+        width: 200,
+        height: 200
+      }, function(err, image) {
+        if (err) {
+          return err;
+        }
+
+        document.getElementById('previews').appendChild(image);
+      });
+
+  </script>
+</body>
+</html>
