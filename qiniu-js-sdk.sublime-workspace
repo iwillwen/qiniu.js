@@ -1,0 +1,1832 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"el"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"in",
+				"invitees"
+			],
+			[
+				"inv",
+				"inviter"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"fi",
+				"file"
+			],
+			[
+				"Ev",
+				"EventEmitter"
+			],
+			[
+				"pr",
+				"preivew"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"inpu",
+				"inputs"
+			],
+			[
+				"fli",
+				"flashId"
+			],
+			[
+				"qi",
+				"qiniu_uniqueId"
+			],
+			[
+				"un",
+				"uniqueId"
+			],
+			[
+				"c",
+				"className"
+			],
+			[
+				"wrapp",
+				"wrapper"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"par",
+				"parentNode"
+			],
+			[
+				"cr",
+				"createElement"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"re",
+				"re	require"
+			],
+			[
+				"de",
+				"deps"
+			],
+			[
+				"_",
+				"_evt"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"crop",
+				"cropHasWidth"
+			],
+			[
+				"has",
+				"hasHeight"
+			],
+			[
+				"ha",
+				"hasWidth"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"_m",
+				"_img"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"qin",
+				"qiniu"
+			],
+			[
+				"to",
+				"totalPercent"
+			],
+			[
+				"ob",
+				"objExtend"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"en",
+				"entryUrl"
+			],
+			[
+				"con",
+				"configData"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"crea",
+				"createXHR"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"Ob",
+				"objExtend"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"ins",
+				"instanceof"
+			],
+			[
+				"f",
+				"fun	Function"
+			],
+			[
+				"Fil",
+				"FileAPI"
+			],
+			[
+				"md",
+				"md2html"
+			],
+			[
+				"sa",
+				"sample"
+			],
+			[
+				"po",
+				"Policy"
+			],
+			[
+				"pu",
+				"PutPolicy"
+			],
+			[
+				"gen",
+				"genToken"
+			],
+			[
+				"P",
+				"PutPolicy"
+			],
+			[
+				"ut",
+				"utils"
+			],
+			[
+				"ac",
+				"access_key"
+			],
+			[
+				"ur",
+				"urlInfo"
+			],
+			[
+				"der",
+				"deferred"
+			],
+			[
+				"ex",
+				"exampleKey"
+			],
+			[
+				"image",
+				"image-process"
+			],
+			[
+				"imag",
+				"images"
+			],
+			[
+				"com",
+				"complete"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"cp",
+				"copy"
+			],
+			[
+				"go",
+				"gogopher"
+			],
+			[
+				"ba",
+				"Batch"
+			],
+			[
+				"ge",
+				"generateAccessToken"
+			],
+			[
+				"gogo",
+				"gogopher_tmp"
+			],
+			[
+				"it",
+				"ita	BDD it asynchronous"
+			],
+			[
+				"ass",
+				"asset"
+			],
+			[
+				"des",
+				"destAsset"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"enco",
+				"encodeSignData"
+			],
+			[
+				"enc",
+				"encodeSign"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"def",
+				"defer"
+			],
+			[
+				"put",
+				"puttingStream"
+			],
+			[
+				"as",
+				"assets"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"data",
+				"dataStream"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"G",
+				"GetPolicy"
+			],
+			[
+				"sc",
+				"secret_key"
+			],
+			[
+				"si",
+				"signature"
+			],
+			[
+				"us",
+				"userLog"
+			],
+			[
+				"fec",
+				"fetchUserLog"
+			],
+			[
+				"fe",
+				"fetchUserLog"
+			],
+			[
+				"sys",
+				"sysLog"
+			],
+			[
+				"lin",
+				"lineNum"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"bi",
+				"binder"
+			],
+			[
+				"qu",
+				"queryStr"
+			],
+			[
+				"wa",
+				"waitingHandled"
+			],
+			[
+				"cha",
+				"characters"
+			],
+			[
+				"bin",
+				"binder"
+			],
+			[
+				"pg",
+				"pgPool"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"we",
+				"weibo"
+			],
+			[
+				"wei",
+				"weibo_id"
+			],
+			[
+				"weibo",
+				"weibo_name"
+			],
+			[
+				"weib",
+				"weiboCosers"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"sav",
+				"savePhotos"
+			],
+			[
+				"quer",
+				"queryStr"
+			],
+			[
+				"phot",
+				"photos"
+			],
+			[
+				"bind",
+				"binder"
+			],
+			[
+				"albu",
+				"albumId"
+			],
+			[
+				"album",
+				"albumId"
+			],
+			[
+				"char",
+				"character"
+			],
+			[
+				"web",
+				"weiboCosers"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"albi",
+				"albumInfo"
+			],
+			[
+				"phx",
+				"phx_ids"
+			],
+			[
+				"coser",
+				"cosers_ids"
+			],
+			[
+				"cos",
+				"cosers"
+			],
+			[
+				"weo",
+				"weiboFilter"
+			],
+			[
+				"photo",
+				"photographers"
+			],
+			[
+				"uti",
+				"utils"
+			],
+			[
+				"wo",
+				"worker"
+			],
+			[
+				"work",
+				"workerTimer"
+			],
+			[
+				"al",
+				"albumId"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"user_",
+				"user_opts"
+			],
+			[
+				"opt",
+				"optsUpdate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/bucket.js",
+			"settings":
+			{
+				"buffer_size": 6858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/deps/file.js",
+			"settings":
+			{
+				"buffer_size": 115355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "qiniu.js",
+			"settings":
+			{
+				"buffer_size": 166240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/server.js",
+			"settings":
+			{
+				"buffer_size": 964,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/qiniu.js",
+			"settings":
+			{
+				"buffer_size": 7944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/env.js",
+			"settings":
+			{
+				"buffer_size": 824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "module.exports = function(grunt) {\n  \n  // 项目设置\n  grunt.initConfig({\n    pkg: grunt.file.readJSON('package.json'),\n\n    concat: {\n      options: {\n        separator: ';',\n      },\n      dist: {\n        src: [\n          'lib/env.js',\n          'lib/utils.js',\n          'lib/deps/ajax.js',\n          'lib/deps/events.js',\n          'lib/deps/file.js',\n          'lib/deps/shim.js',\n          'lib/asset.js',\n          'lib/image.js',\n          'lib/bucket.js',\n          'lib/qiniu.js'\n        ],\n        dest: 'qiniu.js',\n      },\n    },\n\n    uglify: {\n      qiniu_js_sdk: {\n        files: {\n          'qiniu.min.js': [\n            'qiniu.js'\n          ]\n        }\n      }\n    }\n  });\n\n  grunt.loadNpmTasks('grunt-contrib-concat');\n  grunt.loadNpmTasks('grunt-contrib-uglify');\n\n  grunt.registerTask('default', [ 'concat', 'uglify' ]);\n};",
+			"file": "Gruntfile",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "function parseInvitationCode(encoded) {\n  if (typeof encoded !== 'string') {\n    return null;\n  }\n  var code = (new Buffer(encoded, 'base64')).toString();\n  if (code.length != 9) {\n    return null;\n  }\n  var checksum = 0x80;\n  var inviter = (checksum = code[0] ^ checksum) * 0x1;\n  inviter += (checksum = code[2] ^ checksum) * 0x100;\n  inviter += (checksum = code[4] ^ checksum) * 0x10000;\n  inviter += (checksum = code[6] ^ checksum) * 0x1000000;\n  var invitees = (checksum = code[1] ^ checksum) * 0x1;\n  invitees += (checksum = code[3] ^ checksum) * 0x100;\n  invitees += (checksum = code[5] ^ checksum) * 0x10000;\n  invitees += (checksum = code[7] ^ checksum) * 0x1000000;\n  console.log(inviter, invitees);\n  if ((checksum ^ code[8]) != 5) {\n    return null;\n  }\n  return {\n    inviter: inviter,\n    invitees: invitees\n  };\n}",
+			"settings":
+			{
+				"buffer_size": 827,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "def('qiniu.File', [ 'qiniu.deps.Events', 'qiniu.deps.file' ], function(require, exports, module) {\n  \n  if (define && define.amd) {\n    var events = arguments[0];\n    var file   = arguments[1];\n  } else {\n    var events = require('qiniu.deps.Events');\n    var file   = require('qiniu.deps.file');\n  }\n\n  function extend() {\n    // body...\n  }\n\n});",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/deps/shim.js",
+			"settings":
+			{
+				"buffer_size": 3299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "function (f) {\n  if (typeof f !== 'string') {\n    var objects = [];\n    for (var i = 0; i < arguments.length; i++) {\n      objects.push(inspect(arguments[i]));\n    }\n    return objects.join(' ');\n  }\n\n  var i = 1;\n  var args = arguments;\n  var len = args.length;\n  var str = String(f).replace(formatRegExp, function(x) {\n    if (x === '%%') return '%';\n    if (i >= len) return x;\n    switch (x) {\n      case '%s': return String(args[i++]);\n      case '%d': return Number(args[i++]);\n      case '%j': return JSON.stringify(args[i++]);\n      default:\n        return x;\n    }\n  });\n  for (var x = args[i]; i < len; x = args[++i]) {\n    if (x === null || typeof x !== 'object') {\n      str += ' ' + x;\n    } else {\n      str += ' ' + inspect(x);\n    }\n  }\n  return str;\n}",
+			"settings":
+			{
+				"buffer_size": 768,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/index.html",
+			"settings":
+			{
+				"buffer_size": 2272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/view.html",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var imagesBucket = qiniu.bucket('images', {\n  putToken: '-----',\n  getToken: '-----'\n});\n\n// Uploading\nqiniu.bind($('#select-btn'), {\n  filter: 'image'\n})\n  .on('file', function(file) {\n\n    // preview\n    file.imageView({\n      mode: 1,\n      width: 200,\n      height: 200\n    }, function(err, image) {\n      if (err) {\n        return // ...;\n      }\n\n      // `image` is a DOM node\n      $(image)\n        .addClass('preivew')\n        .appendTo($('#preivews'));\n    });\n\n    imagesBucket.putFile(file.name, file, function(err, reply, asset) {\n      if (err) {\n        return err;\n      }\n\n      \n    });\n\n  });",
+			"settings":
+			{
+				"buffer_size": 611,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Qiniu JavaScript DEMO</title>\n\n  <script src=\"qiniu.js\"></script>\n\n</head>\n<body>\n  <button id=\"select\">SELECT</button>\n  <div id=\"previews\"></div>\n\n  <script>\n    var images = qiniu.bucket('qiniu-sdk-test', {\n      putToken: '%s'\n    });\n\n    qiniu.bind(document.getElementById('select'))\n      .on('file', function(file) {\n\n        images.putFile(file.name, file, {\n          beforeUpload: function(xhr, key, file, options) {\n            // ...\n          },\n          progress: function(precent, loaded, total) {\n            progress.innerHTML = precent.toFixed(2) + '%';\n          },\n          complete: function(err, reply) {\n            progress.innerHTML = 'Done';\n          }\n        });\n\n      });\n  </script>\n</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Node.js.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ka",
+				"Package Control: Add Channel"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"ejs",
+				"EJS: <% and %>"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"pain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Prototype"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"jsa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sn",
+				"Snippet: import"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"g",
+				"Set Syntax: Go"
+			],
+			[
+				"syntax",
+				"Set Syntax: C#"
+			],
+			[
+				"typesc",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"snp",
+				"Snippet: default"
+			],
+			[
+				"main",
+				"Snippet: method (main)"
+			],
+			[
+				"pri",
+				"Snippet: println"
+			],
+			[
+				"snpp",
+				"Snippet: class"
+			],
+			[
+				"snip",
+				"Snippet: Type"
+			],
+			[
+				"set",
+				"Snippet: Type"
+			],
+			[
+				"ej",
+				"Set Syntax: EJS"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"lr",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"le",
+				"Set Syntax: LESS"
+			],
+			[
+				"ng",
+				"Set Syntax: nginx"
+			],
+			[
+				"ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"pr",
+				"Package Control: Remove Package"
+			],
+			[
+				"mu",
+				"Set Syntax: MultiMarkdown"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/image.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/file.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/.npmignore",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/qiniu-js-sdk (wen-ThinkPad-T400s 的冲突副本 2013-10-01).sublime-workspace",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/test/qiniu.js",
+		"/usr/share/gnome-shell/js/ui/main.js",
+		"/tmp/kazam-1.4.3",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/Gruntfile.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/qiniu.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/test/qiniu.min.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/test/.npmignore",
+		"/F/static/config.js",
+		"/F/static/modules/info.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/test/server/index.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/bucket.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/test/server.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/test/index.html",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/deps/events.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/utils.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/image.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/qiniu.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/fop.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/asset.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/env.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu-js-sdk/lib/deps/file.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/ajax.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/events.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/deps/shim.js",
+		"/home/wen/Dropbox/Code/qiniu-js-sdk/lib/utils.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_asset.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/utils.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_fop.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/sample.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/token.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/fop.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/image.js",
+		"/C/Users/WillWen/Downloads/key-value-storage.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.gitignore",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.travis.yml",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/package.json",
+		"/C/Users/WillWen/Desktop/LightTable/package.json",
+		"/C/Users/WillWen/.ssh/id_rsa.pub",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/Makefile",
+		"/C/Users/WillWen/Documents/Tencent Files/465479795/FileRecv/parseInvitationCode.js.腾讯你个傻逼",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/qiniu.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/index.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/.npmignore",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/README.md",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/example.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_image.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_get.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_batch.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/config.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/gogopher_tmp.jpg",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/assets/gogopher_alias.jpg",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/bucket.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/lib/asset.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/qiniu_put.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test/batch.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/a.js",
+		"/C/Users/WillWen/Dropbox/Code/qiniu/test.js",
+		"/home/wen/Koicos.sublime-project",
+		"/home/wen/Dropbox/Code/test.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/users.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/views/info/settings.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/static/handlers/u.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/info.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/photos.js",
+		"/home/wen/Dropbox/Code/err.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/relations.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/albums.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/log.js",
+		"/home/wen/.config/sublime-text-3/Packages/User/Node.js.sublime-build",
+		"/home/wen/Dropbox/Koicos/code/global/functions/users.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/tasksqueue.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/messagesqueue.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/user.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/album.html",
+		"/home/wen/Dropbox/Koicos/code/run.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/photos.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/weibo.js",
+		"/home/wen/Dropbox/Koicos/code/global/index.js",
+		"/home/wen/Dropbox/Koicos/code/info/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/info/controllers/routes/messagesworker.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/albums.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/settings.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/upload.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/autocomplete-debug.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/autocomplete.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/textarea-complete-debug.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/arale/autocomplete/1.2.1/textarea-complete.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt-cmd-transport/node_modules/handlebars/node_modules/uglify-js/tmp/app.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/.bin/lodash",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/findup-sync/node_modules/.bin/lodash",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/build.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/examples/findbooleantrap.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/grunt/node_modules/lodash/build.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/pg/node_modules/jshint/node_modules/esprima/examples/findbooleantrap.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/album.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/upload.js",
+		"/home/wen/Dropbox/Koicos/code/photos/controllers/routes/wall.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/routes/index.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/webjs/lib/request.js",
+		"/home/wen/Dropbox/Koicos/code/global/utils.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/webjs/lib/response.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/hash.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/index.js",
+		"/home/wen/Dropbox/Koicos/code/global/functions/packets.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/handlers/album.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/bootstrapSwitch.js",
+		"/tmp/fibonacci.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/navbar.less",
+		"/home/wen/Dropbox/Koicos/code/main/views/layout.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/routes/error.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/geo.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/switch/bootstrapSwitch.less",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/switch/deps/mixins.less",
+		"/home/wen/Dropbox/Koicos/code/main/static/deps/async.js",
+		"/home/wen/Dropbox/Koicos/code/main/controllers/functions/geo.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/views/photos/grids.ejs",
+		"/home/wen/Dropbox/Koicos/code/main/static/modules/upload.js",
+		"/home/wen/Dropbox/Koicos/code/users/controllers/routes/users.js",
+		"/home/wen/Dropbox/Koicos/code/main/static/style/bootstrap/bootstrap.less",
+		"/home/wen/桌面/a.pac",
+		"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib/util.js",
+		"/home/wen/Dropbox/Koicos/code/node_modules/weibo/lib/tbase.js",
+		"/home/wen/Dropbox/Koicos/code/package.json"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\WillWen\\Dropbox\\Code\\qiniu-js-sdk\\lib",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static/modules",
+			"/home/wen/Dropbox/Koicos/code/main/static/sea-modules/gallery/pub/0.1.2/lib",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/photos/controllers/functions",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/node_modules/pg",
+			"/home/wen/Dropbox/Code/PubJS/core",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Code/node-master/deps/v8/src",
+			"/home/wen/Dropbox/Koicos/code",
+			"/home/wen/Dropbox/Koicos/code/main/static"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"with",
+			"file.get",
+			"file.toData",
+			"file.toDate",
+			"toData:",
+			"cloneNode",
+			"recorder",
+			"recorder.pause",
+			"recorder.pause();",
+			"arguments",
+			"supportDnd",
+			"options",
+			"qiniu.Fop",
+			"Fop",
+			"dev",
+			"koicos-test",
+			"koicos.dev",
+			"cosers",
+			"_img",
+			"argument",
+			"getElementB",
+			"success",
+			"support",
+			"over",
+			"argument",
+			"hover",
+			"beforeUpload",
+			"argument",
+			"options",
+			"argument",
+			" = ",
+			"argument",
+			"imagesBucket",
+			"deferred",
+			"argument",
+			"uploaded",
+			") ",
+			"argument",
+			"src",
+			"argument",
+			"  (",
+			"evt",
+			"console",
+			"top",
+			"type",
+			"select",
+			"console",
+			"input",
+			"argument",
+			"getElementById",
+			"get",
+			"select",
+			"set",
+			"setAttribute",
+			"wrapper",
+			"console.log",
+			"event",
+			"event.on",
+			"input",
+			"js-fileapi-wrapper",
+			"width",
+			"fireEvent",
+			"_img",
+			"err",
+			"argument",
+			"err",
+			"argument",
+			"createE",
+			"alert",
+			"stopPropagation",
+			"preventDefault",
+			"stopPropagation",
+			"preventDefault",
+			"staticPath",
+			"300",
+			"staticPath",
+			"swf",
+			"argument",
+			"event",
+			"dataavailable",
+			"argument",
+			"deferred",
+			"events",
+			"function",
+			"define",
+			"argument",
+			"filter",
+			"options",
+			"filter",
+			"documen",
+			"foobar",
+			"abc",
+			"./",
+			"ajax",
+			"qiniu",
+			"argument",
+			"_file",
+			"fileExtend",
+			"null",
+			"_img",
+			"argument",
+			"hasHeight",
+			"hasWidth",
+			"hasHeight",
+			"hasWidth",
+			"has",
+			"hasWidth",
+			"x",
+			"thumbnail",
+			"opts.thumbnail",
+			"opts",
+			"argument",
+			"type",
+			"_file",
+			"argument",
+			"height",
+			"Resize",
+			"argument",
+			"this",
+			"argument",
+			"exports",
+			" = ",
+			"argument",
+			"input",
+			"argument",
+			"filter",
+			"argument",
+			"mpeg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"koicos.com",
+			"getFn",
+			"_global.getFunction('$1');",
+			"",
+			"birth_",
+			"$2: \"$3\", ",
+			"",
+			">$1日<",
+			">$1月<",
+			"<option value=\"$1\">$1</option>",
+			"_global.getFunction('$1');",
+			"var $1 = _global.getFunction('$3');",
+			"",
+			"btn-primary",
+			"btn-sm",
+			"btn-xs",
+			"无数据",
+			"",
+			"<br />",
+			"\\\\n",
+			"",
+			"col-lg-5 form-control",
+			"this.$super",
+			"",
+			"\\\\n",
+			"\\\\\\\\n",
+			"\\\\n",
+			"\\n",
+			"",
+			"self.$el",
+			"",
+			"===",
+			"\"gallery/pub/0.1.2/lib",
+			";\\ndefine",
+			"\"gallery/pub/0.1.2/lib",
+			">$2<",
+			">$1<",
+			"$1",
+			"",
+			"arale",
+			"sea-modules/arale",
+			"val",
+			"#val_",
+			"jquery",
+			"./$1",
+			"",
+			"./",
+			"<",
+			">",
+			"",
+			"qiniudn.com",
+			"koicos-static.koicos.com",
+			"http://static.koicos.com/sea-modules",
+			"'#pub-$1'",
+			"#pub-$1",
+			"process.stdout.write",
+			"stack",
+			"",
+			"./$1.js",
+			"#pub-$1",
+			"document",
+			"",
+			"m",
+			"r",
+			"'#pub-$1'",
+			"e",
+			"r",
+			"m",
+			"r",
+			"e",
+			"r",
+			"e",
+			"r",
+			"$1 + $2",
+			"msg.context",
+			"msg.data",
+			"msg.func",
+			"msg.type",
+			"msg.sender",
+			"msg.listener",
+			"catch(",
+			") catch",
+			") {",
+			"} else",
+			"utils.noop",
+			"sublime"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/bucket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/deps/file.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5968,
+								5968
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3664.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "qiniu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/qiniu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2893,
+								2893
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/env.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Gruntfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\WillWen\\Dropbox\\Code\\qiniu-js-sdk\\lib",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/deps/shim.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "test/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1061,
+								1061
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "test/view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 200.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"project": "qiniu-js-sdk.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"album",
+				"global/functions/albums.js"
+			],
+			[
+				"",
+				"main/static/modules/photos.js"
+			],
+			[
+				"view",
+				"Playground/pub-test/sea-modules/gallery/pub/lib/view.js"
+			],
+			[
+				"nano",
+				"Code/nano.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Koicos.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
