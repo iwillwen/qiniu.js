@@ -5048,6 +5048,7 @@ def('qiniu.deps.file', function() {
     promise.image = image;
 
     promise.resolve(image);
+    callback(null, image);
 
     return promise;
   };
@@ -5058,7 +5059,7 @@ def('qiniu.deps.file', function() {
    * @param  {Function} callback Callback
    * @return {Promise}           promise
    */
-  _Image.prototype.imageMogr = function(opts) {
+  _Image.prototype.imageMogr = function(opts, callback) {
     var promise = new Promise();
     var url = this.url();
     var params = {};
@@ -5073,6 +5074,7 @@ def('qiniu.deps.file', function() {
     promise.image = image;
 
     promise.resolve(image);
+    callback(null, image);
 
     return promise;
   };
@@ -5104,6 +5106,7 @@ def('qiniu.deps.file', function() {
     promise.image = image;
 
     promise.resolve(image);
+    callback(null, image);
 
     return promise;
   };

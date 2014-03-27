@@ -10,7 +10,7 @@ qiniu.config({
 
 var uploadPage = fs.readFileSync(__dirname + '/index.html').toString();
 var viewPage = fs.readFileSync(__dirname + '/view.html').toString();
-var qiniuJs = fs.readFileSync(__dirname + '/qiniu.min.js');
+var qiniuJs = fs.readFileSync(__dirname + '/../qiniu.js');
 
 web.run(process.argv[2] || 8080)
   .get({

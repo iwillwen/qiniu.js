@@ -1,5 +1,5 @@
 {
-  "name": "qiniu-js-sdk",
+  "name": "qiniu.js",
   "version": "0.0.1",
   "description": "Qiniu Cloud Storage SDK for Client-side JavaScript",
   "main": "qiniu.js",
