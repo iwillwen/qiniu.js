@@ -26,6 +26,10 @@
         putToken: '%s'
       });
 
+      images.putFile('foo.json', jsonFile, function(err, reply) {
+        console.log(images.key('foo.json').url());
+      });
+
       qiniu
         .bind($('#select'), {
           filter: 'image'
