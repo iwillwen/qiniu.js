@@ -186,7 +186,7 @@ def.cache = {};;def('qiniu.utils', function() {
     },
 
     safeEncode: function(str) {
-      var encoded = btoa('base64');
+      var encoded = btoa(str);
       var rtn = encoded.replace(/\//g, '_').replace(/\+/g, '-');
 
       return rtn;
@@ -224,7 +224,7 @@ def.cache = {};;def('qiniu.utils', function() {
     return xhr;
   }
 
-  var ajax = exports; 
+  var ajax = {};
 
   ajax.get = function(url, callback) {
     var xhr = createXHR();
@@ -302,7 +302,7 @@ def.cache = {};;def('qiniu.utils', function() {
     var utils = require('qiniu.utils');
   }
 
-  var events = exports;
+  var events = {};
 
   // EventEmitter(without `domain` module) From Node.js
   function EventEmitter() {
@@ -4790,7 +4790,197 @@ def('qiniu.deps.file', function() {
     window.btoa = base64encode;
     window.atob = base64decode;
   }
-});;def('qiniu.Asset', [ 'qiniu.utils', 'qiniu.Fop' ], function(require, exports, module) {
+});;def('qiniu.Fop', [ 'qiniu.utils' ], function(require, exports, module) {
+
+  if ('undefined' !== typeof define && define.amd) {
+    var utils = arguments[0];
+  } else if (require instanceof Function) {
+    var utils = require('qiniu.utils');
+  }
+
+  /**
+   * Fop Class
+   * @param {Asset} asset    asset
+   * @param {Object} _config config
+   */
+  function Fop(asset, _config) {
+    this.parent = asset;
+    this.config = this.config = _config || {};
+
+    this.query = '';
+  }
+
+  /**
+   * custom fop
+   * @param  {String} str fop string
+   * @return {Fop}     fop
+   */
+  Fop.prototype.fop = function(str) {
+    this.query += '|' + str;
+
+    return this;
+  };
+
+  /**
+   * Add imageInfo to the fop
+   * @return {Fop} fop
+   */
+  Fop.prototype.imageInfo = function() {
+    this.query += '|imageInfo';
+
+    return this;
+  };
+
+  /**
+   * Add exif to the fop
+   * @return {Fop} fop
+   */
+  Fop.prototype.exif = function() {
+    this.query += '|exif';
+
+    return this;
+  };
+
+
+  var imageViewTranslations = {
+    weight: 'w',
+    height: 'h',
+    quality: 'q'
+  };
+
+  /**
+   * Add imageView to the fop
+   * @param  {Object} opts options
+   * @return {Fop}      fop
+   */
+  Fop.prototype.imageView = function(opts) {
+    var mode = opts.mode;
+    delete opts.mode;
+
+    var url = this.url();
+    var params = {};
+
+    utils.each(opts, function(value, key) {
+      if (imageViewTranslations.hasOwnProperty(key)) {
+        key = imageViewTranslations[key];
+      }
+
+      params[key] = value;
+    });
+
+    this.query += utils.format('|imageView/%d%s', mode, genOptUrl(params));
+
+    return this;
+  };
+
+  /**
+   * Add imageMogr to the fop
+   * @param  {Object} opts options
+   * @return {Fop}      fop
+   */
+  Fop.prototype.imageMogr = function(opts) {
+    var params = {};
+
+    utils.objExtend(params, opts);
+
+    this.query += utils.format('|imageMogr/v2/auto-orient%s', genOptUrl(params));
+
+    return this;
+  };
+
+  /**
+   * Add watermark to the fop
+   * @param  {Object} opts options
+   * @return {Fop}      fop
+   */
+  Fop.prototype.watermark = function(opts) {
+    var params = {};
+    var mode = opts.mode;
+    delete opts.mode;
+
+    utils.objExtend(params, opts);
+
+    params.image = utils.safeEncode(params.image);
+
+    this.query += utils.format('|watermark/%d%s', mode, genOptUrl(params));
+
+    return this;
+  };
+
+  /**
+   * Add qrcode to the fop
+   * @param  {Object} opts options
+   * @return {Fop}      fop
+   */
+  Fop.prototype.qrcode = function(opts) {
+    opts = opts || {
+      mode: 0,
+      level: 'L'
+    };
+
+    this.query += utils.format('|qrcode/%d/level/%s', this.url(), opts.mode, opts.level);
+
+    return this;
+  };
+
+  /**
+   * Markdown to HTML
+   * @param  {Object}   opts     options
+   * @return {Fop}           fop
+   */
+  Fop.prototype.md2html = function(opts) {
+    opts = opts || {
+      mode: false,
+      css: false
+    };
+
+    var url = '|md2html'
+
+    if (opts.css) {
+      url += utils.format('/%s', opts.mode);
+    }
+
+    if (opts.css) {
+      url += utils.format('/css/%s', utils.safeEncode(opts.css));
+    }
+
+    this.query += url;
+
+    return this;
+  };
+
+  /**
+   * get the url of the fop
+   * @return {String} url
+   */
+  Fop.prototype.url = function() {
+    return utils.format('%s?%s', this.parent.url(), this.query.substr(1));
+  };
+
+  /**
+   * return the image of the fop
+   * @return {Image} image
+   */
+  Fop.prototype.image = function() {
+    var image = new Image();
+    image.src = this.url();
+
+    return image;
+  };
+
+  function genOptUrl(params) {
+    var _url = "";
+
+    utils.each(params, function(value, key) {
+      _url += utils.format('/%s/%s', key, value);
+    });
+
+    return _url;
+  }
+
+  return Fop;
+});
+;def('qiniu.Asset', [ 'qiniu.utils', 'qiniu.Fop' ], function(require, exports, module) {
 
   var configData = {};
 
@@ -4819,7 +5009,7 @@ def('qiniu.deps.file', function() {
    * @return {String} url
    */
   Asset.prototype.url = function() {
-    return utils.format('http://%s.qiniudn.com/%s', this.parent.name, this.key);
+    return utils.parent.url() + '/' + this.key;
   };
 
   /**
@@ -4919,7 +5109,7 @@ def('qiniu.deps.file', function() {
 
   function noop() { return false; }
 
-  return module.exports = exports = function(config) {
+  return function(config) {
     configData = config;
     return Asset;
   };
@@ -5337,7 +5527,7 @@ def('qiniu.deps.file', function() {
     return false;
   }
 
-  return module.exports = exports = _Image;
+  return _Image;
 });;def('qiniu.Bucket', [ 'qiniu.Asset', 'qiniu.Image', 'qiniu.utils', 'qiniu.deps.file', 'qiniu.deps.Events', 'qiniu.deps.Ajax' ], function(require, exports, module) {
   
   if ('undefined' !== typeof define && define.amd) {
@@ -5379,6 +5569,12 @@ def('qiniu.deps.file', function() {
     this.config = utils.objExtend(globalConfig, config, {
       scope: bucketName
     });
+
+    if (this.config.url) {
+      if (/\/$/.test(this.config.url)) {
+        this.config.url = this.config.url.substr(0, this.config.url.length - 1);
+      }
+    }
   }
 
   /**
@@ -5586,6 +5782,10 @@ def('qiniu.deps.file', function() {
     return deferred.promise;
   };
 
+  Bucket.prototype.url = function() {
+    return this.config.url;
+  };
+
   /**
    * return a asset object
    * @param  {String} key key
@@ -5605,193 +5805,12 @@ def('qiniu.deps.file', function() {
     return false;
   }
 
-  return module.exports = exports = function(config) {
+  return function(config) {
     globalConfig = config;
     Asset = Asset(config);
     return Bucket;
   };
-});;def('qiniu.Fop', [ 'qiniu.utils' ], function(require, exports, module) {
-
-  if ('undefined' !== typeof define && define.amd) {
-    var utils = arguments[0];
-  } else if (require instanceof Function) {
-    var utils = require('qiniu.utils');
-  }
-
-  /**
-   * Fop Class
-   * @param {Asset} asset    asset
-   * @param {Object} _config config
-   */
-  function Fop(asset, _config) {
-    this.parent = asset;
-    this.config = utils.objExtend(utils.objClone(config), _config);
-
-    this.query = '';
-  }
-
-  /**
-   * custom fop
-   * @param  {String} str fop string
-   * @return {Fop}     fop
-   */
-  Fop.prototype.fop = function(str) {
-    this.query += '|' + str;
-
-    return this;
-  };
-
-  /**
-   * Add imageInfo to the fop
-   * @return {Fop} fop
-   */
-  Fop.prototype.imageInfo = function() {
-    this.query += '|imageInfo';
-
-    return this;
-  };
-
-  /**
-   * Add exif to the fop
-   * @return {Fop} fop
-   */
-  Fop.prototype.exif = function() {
-    this.query += '|exif';
-
-    return this;
-  };
-
-
-  var imageViewTranslations = {
-    weight: 'w',
-    height: 'h',
-    quality: 'q'
-  };
-
-  /**
-   * Add imageView to the fop
-   * @param  {Object} opts options
-   * @return {Fop}      fop
-   */
-  Fop.prototype.imageView = function(opts) {
-    var mode = opts.mode;
-    delete opts.mode;
-
-    var url = this.url();
-    var params = {};
-
-    utils.each(opts, function(value, key) {
-      if (imageViewTranslations.hasOwnProperty(key)) {
-        key = imageViewTranslations[key];
-      }
-
-      params[key] = value;
-    });
-
-    this.query += utils.format('|imageView/%d%s', mode, genOptUrl(params));
-
-    return this;
-  };
-
-  /**
-   * Add imageMogr to the fop
-   * @param  {Object} opts options
-   * @return {Fop}      fop
-   */
-  Fop.prototype.imageMogr = function(opts) {
-    var params = {};
-
-    utils.objExtend(params, opts);
-
-    this.query += utils.format('|imageMogr/v2/auto-orient%s', genOptUrl(params));
-
-    return this;
-  };
-
-  /**
-   * Add watermark to the fop
-   * @param  {Object} opts options
-   * @return {Fop}      fop
-   */
-  Fop.prototype.watermark = function(opts) {
-    var params = {};
-    var mode = opts.mode;
-    delete opts.mode;
-
-    utils.objExtend(params, opts);
-
-    params.image = utils.safeEncode(params.image);
-
-    this.query += utils.format('|watermark/%d%s', mode, genOptUrl(params));
-
-    return this;
-  };
-
-  /**
-   * Add qrcode to the fop
-   * @param  {Object} opts options
-   * @return {Fop}      fop
-   */
-  Fop.prototype.qrcode = function(opts) {
-    opts = opts || {
-      mode: 0,
-      level: 'L'
-    };
-
-    this.query += utils.format('|qrcode/%d/level/%s', this.url(), opts.mode, opts.level);
-
-    return this;
-  };
-
-  /**
-   * Markdown to HTML
-   * @param  {Object}   opts     options
-   * @return {Fop}           fop
-   */
-  Fop.prototype.md2html = function(opts) {
-    opts = opts || {
-      mode: false,
-      css: false
-    };
-
-    var url = '|md2html'
-
-    if (opts.css) {
-      url += utils.format('/%s', opts.mode);
-    }
-
-    if (opts.css) {
-      url += utils.format('/css/%s', utils.safeEncode(opts.css));
-    }
-
-    this.query += url;
-
-    return this;
-  };
-
-  /**
-   * get the url of the fop
-   * @return {String} url
-   */
-  Fop.prototype.url = function() {
-    return utils.format('%s?%s', this.parent.url(), this.query.substr(1));
-  };
-
-  /**
-   * return the image of the fop
-   * @return {Image} image
-   */
-  Fop.prototype.image = function() {
-    var image = new Image();
-    image.src = this.url();
-
-    return image;
-  };
-
-  module.exports = exports = Fop;
-  return Fop;
-});
-;def('qiniu', [ 'qiniu.Asset', 'qiniu.Bucket', 'qiniu.Image', 'qiniu.utils', 'qiniu.deps.Events', 'qiniu.deps.shim', 'qiniu.deps.file', 'qiniu.deps.Ajax' ], function(require, exports) {
+});;def('qiniu', [ 'qiniu.Asset', 'qiniu.Bucket', 'qiniu.Image', 'qiniu.utils', 'qiniu.deps.Events', 'qiniu.deps.shim', 'qiniu.deps.file', 'qiniu.deps.Ajax' ], function(require, exports) {
 
   var _configData = {
     uploadUrl : 'up.qiniu.com',

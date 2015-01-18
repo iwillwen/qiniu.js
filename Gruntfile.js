@@ -16,10 +16,10 @@ module.exports = function(grunt) {
           'lib/deps/events.js',
           'lib/deps/file.js',
           'lib/deps/shim.js',
+          'lib/fop.js',
           'lib/asset.js',
           'lib/image.js',
           'lib/bucket.js',
-          'lib/fop.js',
           'lib/qiniu.js'
         ],
         dest: 'qiniu.js',
