@@ -22,13 +22,17 @@
 
   <script>
     (function($) {
+      qiniu.config({
+          url: 'qiniu-sdk-test.glb.qiniucdn.com'  //you bucket url
+      });
+      
       var images = qiniu.bucket('qiniu-sdk-test', {
         putToken: '%s'
       });
 
-      images.putFile('foo.json', jsonFile, function(err, reply) {
-        console.log(images.key('foo.json').url());
-      });
+      // images.putFile('foo.json', jsonFile, function(err, reply) {
+      //   console.log(images.key('foo.json').url());
+      // });
 
       qiniu
         .bind($('#select'), {

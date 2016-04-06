@@ -5009,7 +5009,7 @@ def('qiniu.deps.file', function() {
    * @return {String} url
    */
   Asset.prototype.url = function() {
-    return utils.parent.url() + '/' + this.key;
+    return this.parent.url() + '/' + this.key;
   };
 
   /**
@@ -5113,7 +5113,8 @@ def('qiniu.deps.file', function() {
     configData = config;
     return Asset;
   };
-});;def('qiniu.Image', [ 'qiniu.Asset', 'qiniu.utils', 'qiniu.deps.Events', 'qiniu.deps.file', 'qiniu.deps.Ajax' ], function(require, exports, module) {
+});
+;def('qiniu.Image', [ 'qiniu.Asset', 'qiniu.utils', 'qiniu.deps.Events', 'qiniu.deps.file', 'qiniu.deps.Ajax' ], function(require, exports, module) {
 
   if ('undefined' !== typeof define && define.amd) {
     var Asset  = arguments[0];
