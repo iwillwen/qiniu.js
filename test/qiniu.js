@@ -5574,8 +5574,6 @@ def('qiniu.deps.file', function() {
       if (/\/$/.test(this.config.url)) {
         this.config.url = this.config.url.substr(0, this.config.url.length - 1);
       }
-    } else {
-      throw new ReferenceError('You should set the url of the bucket.')
     }
   }
 

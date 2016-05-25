@@ -23,11 +23,8 @@
   <script>
     (function($) {
       var images = qiniu.bucket('qiniu-sdk-test', {
-        putToken: '%s'
-      });
-
-      images.putFile('foo.json', jsonFile, function(err, reply) {
-        console.log(images.key('foo.json').url());
+        putToken: '%s',
+        url: 'http://qiniu-sdk-test.qiniudn.com/'
       });
 
       qiniu
