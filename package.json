@@ -1,13 +1,13 @@
 {
   "name": "qiniu.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Qiniu Cloud Storage SDK for Client-side JavaScript",
-  "main": "qiniu.js",
+  "main": "dist/qiniu.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_modules/.bin/rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,11 @@
     "url": "https://github.com/iwillwen/qiniu.js/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.4",
-    "node-qiniu": "~6.1.5"
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup": "^0.26.3",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-node-builtins": "^1.0.4",
+    "rollup-plugin-node-resolve": "^1.5.0",
+    "rollup-plugin-uglify": "^0.3.1"
   }
 }
