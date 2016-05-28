@@ -13,8 +13,8 @@ export default {
     nodeResolve({
       jsnext: true,
       main: true
-    }),
-    uglify()
+    })//,
+    // uglify()
   ],
 
   format: 'umd',

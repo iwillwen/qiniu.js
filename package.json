@@ -1,6 +1,6 @@
 {
   "name": "qiniu.js",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Qiniu Cloud Storage SDK for Client-side JavaScript",
   "main": "dist/qiniu.js",
   "directories": {
