@@ -1637,7 +1637,7 @@
 
            var config = utils.objExtend(utils.objClone(_this.config), options);
 
-           var putToken = _this.config.putToken;
+           var putToken = config.putToken;
 
            // upload API
            var uploadUrl = 'http://' + globalConfig.uploadUrl;
@@ -2119,10 +2119,10 @@
     * ```
     * qiniu.config({
     *   foo: '-----'
-    * });
+    * })
     *
-    * qiniu.config('foo', 'bar');
-    * qiniu.config('foo');
+    * qiniu.config('foo', 'bar')
+    * qiniu.config('foo')
     * ``` 
     * @param  {String/Object} key   key of config
     * @param  {Mix}           value value
@@ -2178,8 +2178,25 @@
     * @param  {Object} options options
     * @return {Object}         qiniu
     */
-   qiniu.bind = function (el, options) {
-     options = options || {};
+   qiniu.bind = function (el) {
+     var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+     var chain = arguments[2];
+
+
+     var eventHandler = createEventHandler();
+
+     if (chain) {
+       var events = ['file', 'over', 'out', 'dnd.success', 'dnd.error'];
+       events.forEach(function (event) {
+         return chain.on(event, function () {
+           for (var _len = arguments.length, args = Array(_len), _key2 = 0; _key2 < _len; _key2++) {
+             args[_key2] = arguments[_key2];
+           }
+
+           return eventHandler.emit.apply(eventHandler, [event].concat(args));
+         });
+       });
+     }
 
      var css = ".qiniu-transparent { \
     z-index: 1000; \
@@ -2272,14 +2289,14 @@
            break;
        }
 
-       for (var i = 0; i < files.length; i++) {
+       for (var _i = 0; _i < files.length; _i++) {
          (function (index) {
-           qiniu.emit('file', _Image.extend(files[index]));
-         })(i);
+           eventHandler.emit('file', _Image.extend(files[index]));
+         })(_i);
        }
      });
 
-     return this;
+     return eventHandler;
    };
 
    /**
@@ -2288,7 +2305,26 @@
     * @param  {Object} options options
     * @return {Object}         qiniu
     */
-   qiniu.bind.dnd = function (el, options) {
+   qiniu.bind.dnd = function (el) {
+     var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+     var chain = arguments[2];
+
+
+     var eventHandler = createEventHandler();
+
+     if (chain) {
+       var events = ['file', 'over', 'out', 'dnd.success', 'dnd.error'];
+       events.forEach(function (event) {
+         return chain.on(event, function () {
+           for (var _len2 = arguments.length, args = Array(_len2), _key3 = 0; _key3 < _len2; _key3++) {
+             args[_key3] = arguments[_key3];
+           }
+
+           return eventHandler.emit.apply(eventHandler, [event].concat(args));
+         });
+       });
+     }
+
      if (file.support.dnd) {
        file.event.dnd(el.jquery ? el.get(0) : el, function (files) {
          var filter = options.filter || false;
@@ -2324,10 +2360,10 @@
              break;
          }
 
-         for (var i = 0; i < files.length; i++) {
+         for (var _i2 = 0; _i2 < files.length; _i2++) {
            (function (index) {
-             qiniu.emit('file', _Image.extend(files[index]));
-           })(i);
+             eventHandler.emit('file', _Image.extend(files[index]));
+           })(_i2);
          }
        });
 
@@ -2336,23 +2372,23 @@
            case 'dragover':
              (options.over && utils.isFunction(options.over) ? options.over : noop).call(null);
 
-             qiniu.emit('over');
+             eventHandler.emit('over');
              break;
            case 'dragleave':
              (options.out && utils.isFunction(options.out) ? options.out : noop).call(null);
 
-             qiniu.emit('out');
+             eventHandler.emit('out');
          }
        });
 
        (options.success && utils.isFunction(options.success) ? options.success : noop).call(null);
-       qiniu.emit('dnd.success');
+       eventHandler.emit('dnd.success');
      } else {
-       qiniu.emit('dnd.error', 'no support');
+       eventHandler.emit('dnd.error', 'no support');
        (options.error && utils.isFunction(options.error) ? options.error : noop).call(null, 'no support');
      }
 
-     return qiniu;
+     return eventHandler;
    };
 
    qiniu.supportDnd = file.support.dnd;
@@ -2370,6 +2406,33 @@
 
    function noop() {
      return false;
+   }
+
+   function createEventHandler() {
+     var eventHandler = new EventEmitter();
+
+     eventHandler.bind = function () {
+       for (var _len3 = arguments.length, args = Array(_len3), _key4 = 0; _key4 < _len3; _key4++) {
+         args[_key4] = arguments[_key4];
+       }
+
+       var restArgs = args.length === 1 ? [{}, eventHandler] : [eventHandler];
+
+       args.push.apply(args, restArgs); // Chaining
+       return qiniu.bind.apply(qiniu, args);
+     };
+     eventHandler.bind.dnd = function () {
+       for (var _len4 = arguments.length, args = Array(_len4), _key5 = 0; _key5 < _len4; _key5++) {
+         args[_key5] = arguments[_key5];
+       }
+
+       var restArgs = args.length === 1 ? [{}, eventHandler] : [eventHandler];
+
+       args.push.apply(args, restArgs); // Chaining
+       return qiniu.bind.dnd.apply(qiniu, args);
+     };
+
+     return eventHandler;
    }
 
    return qiniu;

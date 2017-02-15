@@ -4,15 +4,15 @@ var fs = require('fs');
 var util = require('util');
 
 qiniu.config({
-  access_key: '5UyUq-l6jsWqZMU6tuQ85Msehrs3Dr58G-mCZ9rE',
-  secret_key: 'YaRsPKiYm4nGUt8mdz2QxeV5Q_yaUzVxagRuWTfM'
+  access_key: 'T0lz0dQPnAeANGo3jaIAa4hx8pIS5D7uxxNx_Jr5',
+  secret_key: '1GhmeedXAtJ7r9A6Cg_Vc2VpcppIczvytKgOjrrC'
 });
 
 var uploadPage = fs.readFileSync(__dirname + '/index.html').toString();
 var viewPage = fs.readFileSync(__dirname + '/view.html').toString();
 var qiniuJs = fs.readFileSync(__dirname + '/../dist/qiniu.js');
 
-var bucket = qiniu.bucket('qiniu-sdk-test');
+var bucket = qiniu.bucket('iwillwen');
 
 var server = http.createServer(function(req, res) {
   switch (req.url) {
@@ -21,6 +21,17 @@ var server = http.createServer(function(req, res) {
 
       res.end(util.format(uploadPage, putToken));
       break;
+
+    case '/token':
+      var putToken = bucket.token()
+
+      res.writeHead(200, {
+        'Content-Type': 'application/json'
+      })
+      res.end(JSON.stringify({
+        token: putToken
+      }))
+      break
 
     case '/view':
       var getToken = bucket.key('2.jpg').token().token;

@@ -12,7 +12,8 @@
 
   <script>
     var images = qiniu.bucket('qiniu-sdk-test', {
-      getToken: '%s'
+      getToken: '%s',
+        url: 'http://qiniu-sdk-test.qiniudn.com/'
     });
 
     images.image('2.jpg')
